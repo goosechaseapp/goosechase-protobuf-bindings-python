@@ -10,5 +10,5 @@ fi
 for file in proto/*.proto
 do
     # Generate the .pb.go file
-    protoc -I=proto --python_out=. $file
+    protoc -I=proto --python_out=goose_pb/pb --pyi_out=goose_pb/pb $file
 done
