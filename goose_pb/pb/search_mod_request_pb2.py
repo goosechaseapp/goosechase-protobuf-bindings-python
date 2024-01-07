@@ -12,7 +12,7 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
-import email_pb2 as email__pb2
+from . import email_pb2 as email__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18search_mod_request.proto\x12\x1bgoosechase.data.draftmodreq\x1a\x0b\x65mail.proto\"\x7f\n\x19SearchModificationRequest\x12\x13\n\x0b\x63\x61mpaign_id\x18\x01 \x01(\t\x12\x14\n\x0cinstructions\x18\x02 \x01(\t\x12\x37\n\temail_doc\x18\x03 \x01(\x0b\x32$.goosechase.data.email.EmailDocumentB\tZ\x07./protob\x06proto3')
