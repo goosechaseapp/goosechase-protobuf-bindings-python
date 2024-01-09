@@ -12,15 +12,17 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
+from . import email_pb2 as email__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n client_approval_reconciler.proto\x12*goosechase.data.client_approval_reconciler\"f\n\x1f\x43lientApprovalReconcilerRequest\x12\x13\n\x0b\x63lient_name\x18\x01 \x01(\t\x12\x15\n\rtagger_output\x18\x02 \x01(\t\x12\x17\n\x0f\x63lient_feedback\x18\x03 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n client_approval_reconciler.proto\x12*goosechase.data.client_approval_reconciler\x1a\x0b\x65mail.proto\"\xb0\x01\n\x1f\x43lientApprovalReconcilerRequest\x12\x13\n\x0b\x63lient_name\x18\x01 \x01(\t\x12\x15\n\rtagger_output\x18\x02 \x01(\t\x12\x17\n\x0f\x63lient_feedback\x18\x03 \x01(\t\x12\x37\n\temail_doc\x18\x04 \x01(\x0b\x32$.goosechase.data.email.EmailDocument\x12\x0f\n\x07send_to\x18\x05 \x01(\tB\tZ\x07./protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'client_approval_reconciler_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
-  DESCRIPTOR._options = None
-  _globals['_CLIENTAPPROVALRECONCILERREQUEST']._serialized_start=80
-  _globals['_CLIENTAPPROVALRECONCILERREQUEST']._serialized_end=182
+  _globals['DESCRIPTOR']._options = None
+  _globals['DESCRIPTOR']._serialized_options = b'Z\007./proto'
+  _globals['_CLIENTAPPROVALRECONCILERREQUEST']._serialized_start=94
+  _globals['_CLIENTAPPROVALRECONCILERREQUEST']._serialized_end=270
 # @@protoc_insertion_point(module_scope)
