@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "goose-pb"
-version = "1.0.1"
+version = "1.2.1"
 description = ""
 authors = ["Charuka Samarakoon <charuka@surge.global>"]
 readme = "README.md"
