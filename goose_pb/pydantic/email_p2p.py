@@ -16,3 +16,9 @@ class EmailDocument(BaseModel):
     content: str = Field(default="") 
     message_id: str = Field(default="") 
 
+
+class SendEmailDocument(BaseModel):
+
+    to_address: str = Field(default="") 
+    received_email: EmailDocument = Field() 
+
